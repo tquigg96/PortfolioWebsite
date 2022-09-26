@@ -35,12 +35,16 @@
                     both frontend and backend. Utilizing multiple stacks and also know Ai and Data Analysis. This website is built using Vue, Django,
                     and uploaded via vercel.</p>
             </div>
+
+            <div class = "me">
+                <h1>Technologies and Experience</h1>
+            </div>
         
             <div class="button-container">
                 <div class = "projects-button">
                     <a href = "Projects">projects</a>
                 </div>
-                <div class = "resume">
+                <div class = "projects-button">
                     <a href = ""> My Resume </a>
                 </div>
 
@@ -56,6 +60,11 @@
     }
 </script>
 <style scoped>
+    .social-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     img{
       height: 5rem;  
     }
@@ -64,7 +73,8 @@
     .main-container{
         display: flex;
         flex-direction: row;
-        background-color: rgb(146, 143, 143);
+        background-color: #122620;
+        border-radius: 27%;
     }
     .link{
         height:4rem;
@@ -72,9 +82,9 @@
    
 
     .container-one{
-        background-color: #ffb0b0;
+        background-color: #B68D40;
         padding: 2.5%;
-        width:50%;
+        width:30%;
     }
     .profile img{
         height:9rem;
@@ -82,12 +92,30 @@
     }
 
     .container-two{
-        background-color: #cdc0fc;
-        margin: 2.5%;
-        width:50%;
+        background-color: #D6AD60;
+        margin: 1.5%;
+        width:70%;
         border-radius: 25px;
     }
     .about-me{
         text-align:left;
+    }
+    .button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .projects-button{
+        background-color: #F4EbD0;
+        margin: 5px;
+        padding: 7.5px;
+        border-radius: 15px;
+    }
+    
+    .projects-button a{
+        text-decoration: none;
+        color: grey;
     }
 </style>
